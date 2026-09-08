@@ -1,0 +1,35 @@
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+cmake-build-*/
+bin/
+lib/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Your compiled program
+simulator
+portfolio_simulator
+
+# Data files (don't commit big data)
+*.csv
+*.dat
+*.txt
+!README.md  # Except README.md
+
+# Temporary files
+temp/
+tmp/
+*.tmp
