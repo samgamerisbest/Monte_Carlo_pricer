@@ -1,0 +1,9 @@
+# .gitignore
+*.o
+*.exe
+*.out
+simulator
+build/
+.DS_Store
+*.swp
+*.swo
