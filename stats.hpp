@@ -2,4 +2,4 @@
 #include <vector>
 #include "types.hpp"
 
-stockstats calculatestats(const std::vector<double>& prices)
+stockstats calculatestats(const std::vector<double>& prices);
