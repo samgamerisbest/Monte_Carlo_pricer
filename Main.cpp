@@ -1,10 +1,13 @@
-#include "stats.hpp"
 #include <iostream>
+#include "Random.hpp"
 
-int main()
-{
-    std::vector<double> prices = {100, 101, 102, 101.5, 103};
-    stockstats stats = calculatestats(prices);
-    std::cout << "Mu: " << stats.mu << std::endl;
-    std::cout << "Sigma: " << stats.sigma << std::endl;
+int main() {
+    RandomGenerator rng;
+    
+    
+    for (int i = 0; i < 10; i++) {
+        std::cout << rng.next_normal() << std::endl;
+    }
+    
+    return 0;
 }
