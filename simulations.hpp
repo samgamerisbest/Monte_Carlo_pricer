@@ -1,6 +1,8 @@
 #pragma once
 #include <vector>
 #include "types.hpp"
+#include "Random.hpp"
+
 
 class PortfolioSimulator
 {
@@ -11,7 +13,8 @@ class PortfolioSimulator
                 const std::vector<stock>& portfolio,  //  For portfolio
                 double monthly_contribution,          //  For monthly_contribution
                 int years,                            //  For years
-                int num_simulations                   //  For num_simulations
+                int num_simulations,             //  For num_simulations
+                const std::vector<stockstats>& stats
                );
                
                simulationresult run();
